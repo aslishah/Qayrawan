@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Aslisho Qurboniev"
+  },
+  "text": {
+    "more": "\n\n",
+    "intro": "This is an overview of the textual networks of the Mālikī scholarly community of Qayrawān. \nThe orange nodes represents BOOKS authored or transmitted by the scholars of Qayrawan. The rest of the colours\n represent scholars according to 4 historical periods: Early Aghlabid period (dark blue), Later Aghlabid period (turqoise)\nEarly Fatimid period (light green) and Fatimid-Zirid period (dark green). Other scholars, whose  works have nott been included\nare represented with red nodes.\n\nSource: Muḥammad b. Ḥārith al-Khushanī, Ṭabaqāt ʿUlamā al-Qayrawān",
+    "title": "The Textual Community of Qayrawān "
+  },
+  "legend": {
+    "edgeLabel": "Transmission or Authorship",
+    "colorLabel": "Scholars grouped by historical periods (Aghlabid-Fatimid-Zirid)",
+    "nodeLabel": "Scholars"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "color",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
