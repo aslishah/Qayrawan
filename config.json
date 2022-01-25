@@ -3,8 +3,8 @@
   "version": "1.0",
   "data": "data.json",
   "logo": {
-    "file": "",
-    "link": "",
+    "file": "mypicture.png",
+    "link": "/mypicture.png",
     "text": "Aslisho Qurboniev"
   },
   "text": {
