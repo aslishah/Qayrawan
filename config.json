@@ -10,10 +10,10 @@
   "text": {
     "more": "\n\n",
     "intro": "This is an overview of the textual networks of the Mālikī scholarly community of Qayrawān. \nThe orange nodes represents BOOKS authored or transmitted by the scholars of Qayrawan. The rest of the colours\n represent scholars according to 4 historical periods: Early Aghlabid period (dark blue), Later Aghlabid period (turqoise)\nEarly Fatimid period (light green) and Fatimid-Zirid period (dark green). Other scholars, whose  works have nott been included\nare represented with red nodes.\n\nSource: Muḥammad b. Ḥārith al-Khushanī, Ṭabaqāt ʿUlamā al-Qayrawān",
-    "title": "The Textual Community of Qayrawān "
+    "title": "Textual Communities of Qayrawān: 800-1050 CE "
   },
   "legend": {
-    "edgeLabel": "Transmission or Authorship",
+    "edgeLabel": "Transmission or Authorship of a Book",
     "colorLabel": "Scholars grouped by historical periods (Aghlabid-Fatimid-Zirid)",
     "nodeLabel": "Scholars"
   },
