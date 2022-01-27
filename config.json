@@ -3,17 +3,17 @@
   "version": "1.0",
   "data": "data.json",
   "logo": {
-    "file": "mypicture.png",
-    "link": "https://github.com/aslishah/Qayrawan/blob/main/images/mypicture.png",
+    "file": "",
+    "link": "",
     "text": "Aslisho Qurboniev"
   },
   "text": {
-    "more": "\nI am currently working on creating a larger network of the scholars in this period. \nThe new networrk will also incude schoalrs from Egypt, Sicily and alAndalus.",
-    "intro": "This is an overview of the textual networks of the Mālikī scholarly community of Qayrawān. \nThe orange nodes represents BOOKS authored or transmitted by the scholars of Qayrawan. The rest of the colours\n represent scholars according to 4 historical periods: Early Aghlabid period (dark blue), Later Aghlabid period (turqoise)\nEarly Fatimid period (light green) and Fatimid-Zirid period (dark green). Other scholars, whose  works have nott been included\nare represented with red nodes.\n\nSource: Muḥammad b. Ḥārith al-Khushanī, Ṭabaqāt ʿUlamā al-Qayrawān",
-    "title": "Aslisho Qurboniev \nTextual Communities of Qayrawān: 800-1050 CE "
+    "more": "I am currently working on creating a larger network of the scholars in this period. The new networrk will also incude schoalrs from Egypt, Sicily and al-Andalus.\n\nThe current network is bi-modal, i.e. it has two types of nodes, authors and books, which may be problematic from network analysis perspective. \n\nThe question is whether studying or transmitting a book could be more meaningfully represented as a link between two nodes (scholars/authors), rather than as a node. \n\nI think, it makes sense to  see books and  authors essentially playing a similar role in a textual network. Studying with Sahnun would probably meant studying his Mudawwana, and studying the Mudawwana meant sustaining a link with Sahnun. \n\nNow, I am not saying these two are the same, but I think those who are familiar with the medieval knoweldge transmission would see some benefit in this.\n\nMoer to come... \n\n",
+    "intro": "This is an overview of the textual networks of the Mālikī scholarly community of Qayrawān. \nThe orange nodes represent BOOKS authored or transmitted by the scholars of Qayrawan. The rest of the colours\n represent scholars according to 4 historical periods: Early Aghlabid period (dark blue), Later Aghlabid period (turqoise)\nEarly Fatimid period (light green) and Fatimid-Zirid period (dark green). Other scholars, whose  works have nott been included\nare represented with red nodes.\n\nSource: Muḥammad b. Ḥārith al-Khushanī, Ṭabaqāt ʿUlamā al-Qayrawān, etc.",
+    "title": "The Textual Community of Qayrawān "
   },
   "legend": {
-    "edgeLabel": "Transmission or Authorship of a Book",
+    "edgeLabel": "Transmission or Authorship",
     "colorLabel": "Scholars grouped by historical periods (Aghlabid-Fatimid-Zirid)",
     "nodeLabel": "Scholars"
   },
@@ -40,10 +40,10 @@
       "defaultLabelSize": 14
     },
     "graphProperties": {
-      "maxEdgeSize": 1.5,
-      "minEdgeSize": 1.0,
-      "minNodeSize": 2,
-      "maxNodeSize": 8
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
     },
     "mouseProperties": {
       "maxRatio": 20,
